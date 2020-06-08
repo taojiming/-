@@ -1,0 +1,153 @@
+/* 主页的样式 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: red;
+}
+
+.shortcut {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.shortcut a {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.shortcut ul li a:hover {
+    color: blue;
+}
+
+.fr ul button {
+    width: 48px;
+    height: 25px;
+    margin-top: -3px;
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 8px;
+    background-color: blue;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+    margin-top: 50px;
+}
+
+.main img {
+    position: absolute;
+    width: 270px;
+    height: 129px;
+    top: 0;
+    left: 50%;
+    margin-left: -135px;
+}
+
+.main input {
+    position: absolute;
+    width: 548px;
+    height: 44px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #c4c7ce;
+    top: 150px;
+    left: 50%;
+    margin-left: -319px;
+    padding-left: 10px;
+}
+
+.main input:hover {
+    border-color: #a7aab5;
+}
+
+.main input:focus {
+    border-color: blue;
+}
+
+.main button {
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    top: 150px;
+    left: 50%;
+    margin-left: 227px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: #4e6ef2;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+}
+
+.footer .links {
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+.footer .links li {
+    float: left;
+}
+
+.footer .links li a {
+    padding: 0 10px;
+    color: #9195a3;
+}
+
+.footer .links li a:hover {
+    color: #333;
+}
+
+.footer .copyright {
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+.footer .copyright {
+    float: right;
+}
+
+.footer .copyright li {
+    float: left;
+    padding: 0 10px;
+    color: #bbb;
+    font-size: 12px;
+}
+
+.footer .copyright li a {
+    color: #bbb;
+}
+
+.footer .copyright li a:hover {
+    color: #333;
+}
